@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jai Kaushik Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #1e3a8a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #111;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 10px;
+        }
+        h2 {
+            color: #1e3a8a;
+        }
+        .projects div {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #e5e7eb;
+            border-radius: 8px;
+        }
+        footer {
+            background: #1e3a8a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Jai Kaushik</h1>
+    <p>B.Tech Student | Web Developer | Tech Enthusiast</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        Hello! I am Jai Kaushik, a passionate B.Tech student with a strong interest in 
+        web development and software engineering. I enjoy building creative and practical 
+        projects that solve real-world problems.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python Programming</li>
+        <li>Data Structures & Algorithms</li>
+        <li>Database Management (MySQL)</li>
+        <li>Basic React & Node.js</li>
+    </ul>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+
+    <div>
+        <h3>E-Commerce Website</h3>
+        <p>Developed a full-stack e-commerce platform with product listings, cart system, and checkout functionality.</p>
+    </div>
+
+    <div>
+        <h3>Gym Management System</h3>
+        <p>Created a web application to manage gym memberships, trainers, and fee structure.</p>
+    </div>
+
+    <div>
+        <h3>Personal Portfolio Website</h3>
+        <p>Designed a responsive portfolio website to showcase skills and projects.</p>
+    </div>
+
+</section>
+
+<section id="contact">
+    <h2>Contact Details</h2>
+    <p><strong>Email:</strong> jai.kaushik@example.com</p>
+    <p><strong>Phone:</strong> +91 9876543210</p>
+    <p><strong>LinkedIn:</strong> linkedin.com/in/jaikaushik</p>
+    <p><strong>GitHub:</strong> github.com/jaikaushik</p>
+</section>
+
+<footer>
+    <p>© 2026 Jai Kaushik | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
